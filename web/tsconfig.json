@@ -5,9 +5,7 @@
   "compilerOptions": {
     "rootDir": "..",
     "outDir": "../out",
-    "strict": true,
     "jsx": "react-jsx",
-    "allowSyntheticDefaultImports": true,
     "baseUrl": "./src"
   }
 }

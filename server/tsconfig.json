@@ -3,8 +3,6 @@
   "include": ["src/**/*", "index.ts"],
   "compilerOptions": {
     "rootDir": "..",
-    "outDir": "../out",
-    "strict": true,
-    "allowSyntheticDefaultImports": true
+    "outDir": "../out"
   }
 }
