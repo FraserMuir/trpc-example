@@ -1,8 +1,8 @@
 {
-  "eslint.workingDirectories": ["./api", "./client"],
+  "eslint.workingDirectories": ["./server", "./web"],
   "typescript.preferences.importModuleSpecifier": "shortest",
-  "editor.formatOnSave": true
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll": true
-  // }
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
 }

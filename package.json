@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "workspaces": [
-    "client",
-    "api"
+    "web",
+    "server"
   ],
   "scripts": {
     "build": "tsc -b",
-    "dev:client": "npm run dev -w client",
-    "dev:api": "npm run dev -w api",
+    "dev:web": "npm run dev -w web",
+    "dev:server": "npm run dev -w server",
     "dev": "conc -k 'npm:dev:*'"
   },
   "devDependencies": {

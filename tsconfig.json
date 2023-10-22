@@ -1,10 +1,10 @@
 {
   "files": [],
-  "references": [{ "path": "api" }, { "path": "client" }],
+  "references": [{ "path": "server" }, { "path": "web" }],
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Node",
     "composite": true,
-    "strict": true,
+    "strict": true
   }
 }
