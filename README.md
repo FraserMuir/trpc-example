@@ -1,10 +1,24 @@
+# Full stack monorepo prototype
+
+This repo contains the setup for a full stack, typesafe , monorepo React / Node.js application using tRPC.
+
+## Getting started
+
 ```sh
-$ npm i
-$ npx eslint . # no errors
-$ npx tsc -b
-$ npx eslint . # no-unnecessary-condition reports an error
-$ rm -rf out
-$ npx eslint . # no errors
-# enable EXPERIMENTAL_useSourceOfProjectReferenceRedirect in .eslintrc.yml
-$ npx eslint . # no-unnecessary-condition reports an error
+# Install dependencies
+npm install
+
+# Run dev server on port 3000
+npm run dev
 ```
+
+## Features
+
+- [x] Typescript
+- [x] React
+- [x] Node.js
+- [x] tRPC
+- [x] Zod
+- [ ] DrizzleORM
+- [ ] Vitest
+- [ ] Playwright
