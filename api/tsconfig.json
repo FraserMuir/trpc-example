@@ -1,31 +1,10 @@
 {
+  "extends": "..",
+  "include": ["src/**/*", "index.ts"],
   "compilerOptions": {
-    "moduleResolution": "node",
-    "esModuleInterop": true,
+    "rootDir": "..",
+    "outDir": "../out",
     "strict": true,
-    "outDir": "dist",
-    "target": "ES2022",
-    "useDefineForClassFields": true,
-    "lib": ["ES2022"],
-    "module": "ESNext",
-    "skipLibCheck": true,
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "strictFunctionTypes": true,
-    "noUncheckedIndexedAccess": true,
-    "strictNullChecks": true,
-    "composite": true,
-    "forceConsistentCasingInFileNames": true,
-    "strictPropertyInitialization": true,
-    "preserveWatchOutput": true,
-    "allowSyntheticDefaultImports": true,
-    "allowJs": false,
-    "baseUrl": "."
+    "allowSyntheticDefaultImports": true
   }
 }

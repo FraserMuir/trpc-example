@@ -7,18 +7,17 @@
     "api"
   ],
   "scripts": {
-    "build:client": "npm run build -w client",
-    "build:api": "npm run build -w api",
+    "build": "tsc -b",
     "dev:client": "npm run dev -w client",
     "dev:api": "npm run dev -w api",
-    "dev": "conc -k 'npm:dev:*'",
-    "test:e2e": "playwright test",
-    "test-dev": "start-server-and-test dev 3000 test:e2e"
+    "dev": "conc -k 'npm:dev:*'"
   },
   "devDependencies": {
-    "@playwright/test": "^1.26.1",
-    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.52.0",
+    "typescript": "^5.2.2",
     "concurrently": "^8.2.2",
-    "start-server-and-test": "^1.12.0"
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1"
   }
 }

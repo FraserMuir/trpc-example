@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["./tsconfig.json", "./client.tsconfig.json", "./api/tsconfig.json"],
+    "EXPERIMENTAL_useProjectService": true,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/strict-type-checked",
+    "plugin:@typescript-eslint/stylistic-type-checked"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "ignorePatterns": ["node_modules", "out"],
+  "rules": {
+    "@typescript-eslint/no-unnecessary-condition": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-confusing-void-expression": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"]
+    }
+  ]
+}

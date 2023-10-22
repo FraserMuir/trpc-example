@@ -1,0 +1,10 @@
+vite.config.ts
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+*.d.ts
+node_modules
+dist
+coverage
+out
