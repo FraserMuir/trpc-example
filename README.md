@@ -19,6 +19,7 @@ npm run dev
 - [x] Node.js
 - [x] tRPC
 - [x] Zod
+- [x] TailwindCSS
 - [ ] DrizzleORM
 - [ ] Vitest
 - [ ] Playwright
