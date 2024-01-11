@@ -1,8 +1,9 @@
 {
   "eslint.workingDirectories": ["./server", "./web"],
   "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   }
 }

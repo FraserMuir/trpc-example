@@ -1,8 +1,7 @@
 vite.config.ts
-*.test.ts
-*.test.tsx
-*.spec.ts
-*.spec.tsx
+eslintrc.cjs
+tailwind.config.cjs
+postcss.config.cjs
 *.d.ts
 node_modules
 dist
